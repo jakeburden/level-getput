@@ -1,6 +1,6 @@
 {
   "name": "level-getput",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "If the key exists then get it's value. Otherwise put the key and value in the db and then get the value.",
   "main": "index.js",
   "scripts": {
