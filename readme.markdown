@@ -24,6 +24,9 @@ const db = level(__dirname + '/your.db')
 
 getput(db, 'foo', 'bar', function (err, value) {
   console.log(value) // 'bar'
+  getput(db, 'foo', 'wow', function (err, value) {
+    console.log(value) // still 'bar'
+  })
 })
 ```
 
@@ -39,6 +42,9 @@ getput.install(db)
 
 db.getput('foo', 'bar', function (err, value) {
   console.log(value) // 'bar'
+  db.getput('foo', 'wow', function (err, value) {
+    console.log(value) // still 'bar'
+  })
 })
 ```
 
