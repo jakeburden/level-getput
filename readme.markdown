@@ -4,7 +4,6 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-## Description
 If the key exists then get it's value.
 Otherwise put the key and value in the db and then get the value.
 
