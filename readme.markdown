@@ -60,7 +60,7 @@ You can then use `db.getput(key, value, cb)`.
 
 
 
-### The MIT License (MIT)
+## The MIT License (MIT)
 
 Copyright © 2016 Jacob Burden, <Jacob.JW.Burden@gmail.com>
 
