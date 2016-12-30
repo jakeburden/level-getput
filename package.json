@@ -30,7 +30,7 @@
   "homepage": "https://github.com/jekrb/level-getput#readme",
   "devDependencies": {
     "level": "^1.4.0",
-    "leveldown": "^1.4.4",
+    "leveldown": "^1.5.3",
     "tape": "^4.4.0"
   }
 }
